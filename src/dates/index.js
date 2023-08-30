@@ -9,14 +9,14 @@ const today = () => {
 
 const calendar = () => {
   // write code for dates.calendar
-  return moment().format('MMMM D, YYYY');
+  return moment().format('MMM D, YYYY');
   
   
 }
 
 const currentTime = () => {
   // write code for dates.currentTime
-  return moment().format('hh:mm:ss a')
+  return moment().format('hh:mm:ss A')
 }
 
 module.exports = {
